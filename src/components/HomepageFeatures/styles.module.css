@@ -1,0 +1,27 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  background-color: #f9f9f9; /* Light background */
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+  fill: #dea584; /* Rust's theme color */
+}
+
+/* Add some hover effects for interactivity */
+.features:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Use a modern, readable font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333; /* Dark text for contrast against light background */
+}
