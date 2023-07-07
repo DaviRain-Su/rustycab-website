@@ -84,6 +84,11 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
+            href: 'https://github.com/DaviRain-Su/rustycab-website/discussions',
+            label: 'Discussions',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/DaviRain-Su/rustycab-website',
             label: 'GitHub',
             position: 'right',
